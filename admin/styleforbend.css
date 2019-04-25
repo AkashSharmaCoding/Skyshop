@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+ margin:0px;
+ padding:0px;	
+}
+.shaker
+{
+width:350px; height:300px; margin:auto; background-color:#D0D0D0; border:2px solid black; margin-top:40px;
+}
+.fillfrm
+{
+margin-left:30px; 	
+}
+@font-face
+{
+	font-family:myfontadmin;
+	src:url(font/IMPRISHA.TTF);	
+}
+.shaker h1
+{
+text-align:center; font-family:myfontadmin; font-size:35px;
+}
+.headings
+{
+	font-family:myfontadmin; font-size:18px;
+}
+.sub
+{
+	font-family:myfontadmin; font-size:16px; width:100px; height:40px; margin-left:90px;
+}
+.inp
+{
+	width:270px; height:20px;
+}
+.top
+{
+	width:100%; height:100px; background-color:#666666;
+}
+.top h1
+{
+	color:#FFFFFF; text-align:center; font-family:myfontadmin; font-size:36px;
+}
+.left
+{
+	width:20%; height:600px; background-color:#BBBBBB; float:left;
+}
+.right
+{
+	width:80%; height:600px; background-color:#E0E0E0; float:right; 
+}
+.btn0
+{
+	width:150px; height:50px; margin-left:60px; font-size:15px; border:none; border-left:7px solid #00BBB2; 
+	font-family:myfontadmin;
+}
+.btn0:hover
+{
+	 border-left:7px solid #00FFF2;
+}
+.btn
+{
+	width:150px; height:50px; margin-left:60px; font-size:15px; border:none; border-left:7px solid #3041C4; 
+	font-family:myfontadmin;
+}
+.btn:hover
+{
+	 border-left:7px solid #A5AFFF;
+}
+.btn2
+{
+	width:150px; height:50px; margin-left:60px; font-size:15px; border:none; border-left:7px solid #00D52C; 
+	font-family:myfontadmin;
+}
+.btn2:hover
+{
+	border-left:7px solid #82FF9B; 
+}
+.btn3
+{
+	width:150px; height:50px; margin-left:60px; font-size:15px; border:none; border-left:7px solid #E8DF00; 
+	font-family:myfontadmin;
+}
+.btn3:hover
+{
+	border-left:7px solid #FFF996;
+}
+.btn4
+{
+	width:150px; height:50px; margin-left:60px; font-size:15px; border:none; border-left:7px solid #FD8003; 
+	font-family:myfontadmin;
+}
+.btn4:hover
+{
+	border-left:7px solid #FFB696;
+}
+.welcome
+{
+	font-size:24px; font-family:myfontadmin;
+}
+.logout
+{
+	 margin-left:60%; background-color:#FDFDFD; border:none; font-family:myfontadmin;
+}
+.errorbox
+{
+		width:350px; height:30px; background-color:#921113; color:#F4EFEF;
+		font-size:18px;
+		text-align:center;
+		border-radius:10px;
+		line-height:30px;
+}
+.adminname
+{
+	font-size:20px; color:#0100D5; font-family:myfontadmin;
+}
+.logout:hover 
+{
+	background-color:#FFADAE;
+}
+.sameclassdiv
+{
+width:430px; height:540px; margin:auto; background-color:#D5D5D5; border:dashed 2px #000000; 
+}
+.sameclassform
+{
+	margin-left:20px; margin-top:10px;
+}
+.topheading
+{
+	 text-align:center; font-family:myfontadmin; font-size:36px;
+}
+.txt
+{
+	font-size:36px; text-align:center; color:rgba(56,56,56,1.00); margin-top:200px; font-family:myfontadmin;
+}
+.errorbox2
+{
+		width:400px; height:30px; background-color:#921113; color:#F4EFEF;
+		font-size:18px;
+		text-align:center;
+		border-radius:10px;
+		line-height:30px;
+}
+.successbox
+{
+		width:400px; height:30px; background-color:#009A1F; color:#F4EFEF;
+		font-size:18px;
+		text-align:center;
+		border-radius:10px;
+		line-height:30px;
+	
+}
+.dltbutton
+{
+  margin-left:90px; width:60px; height:20px;
+}
+.dltbutton:hover
+{
+ background-color:#FFBCBD;
+}
+.scrolltable
+{
+overflow:scroll; height:600px; 	
+}

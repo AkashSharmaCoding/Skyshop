@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+ background-color:#3D3D3D;	background-image:url(img/maroon-wallpapers.jpg); background-size:cover;
+}
+.topdiv
+{
+width:100%; height:140px; 
+}
+.top
+{
+width:1024px; height:140px;  margin:auto; background-color:#454545;	
+}
+@font-face
+{
+	font-family:myfont;
+	src:url(font/HARLOWSI.TTF);	
+}
+@font-face
+{
+	font-family:myfontbody;
+	src:url(font/IMPRISHA.TTF);	
+}
+#logo
+{
+ font-size:70px; font-family:myfont; color:#FFB01D; text-decoration:none; margin-left:10px;  
+}
+.forlogo
+{
+width:300px; height:110px;  float:left;	
+
+}
+*
+{
+ margin:0px;
+ padding:0px;
+
+}
+.nav
+{
+		width:724px; height:140px; 
+		margin:auto; float:right; 
+}
+.nav ul
+{
+	list-style:none;
+	margin-left:28px;
+	
+}
+.nav ul li
+{
+		background-image:url(img/gray2.jpg);
+	
+	width:135px;
+	height:60px;
+	margin-left:4px;
+	text-align:center;
+	line-height:60px;
+	float:left;
+	position:relative;
+	margin-top:50px;
+	
+}
+.nav ul li:hover
+{
+	background-image:none;
+	background-color:#6F0000;
+}
+
+.nav ul li a
+{
+	text-decoration:none;
+	font-family:myfontbody;
+	color:#FFFFFF;
+	display:block;
+	font-size:18px;
+	
+}
+
+.nav ul li:hover>ul
+{
+	display:block;
+	z-index:100;
+	
+	
+}
+.nav ul ul
+{
+	position:absolute;	
+	margin-left:-4px;
+	display:none;
+}
+.nav ul ul li
+{
+ margin-top:2px;	
+}
+.nav ul ul ul
+{
+	margin-left:135px;
+	top:0px;
+	
+}
+.middle
+{
+	width:1024px; height:700px; background-color:#F1F1F1; margin:auto;
+}
+.middlecustomer
+{
+	width:1024px; height:900px; background-color:#F1F1F1; margin:auto;
+}
+.mid1
+{
+	width:1024px; height:170px; background-color:#A8A6A7;
+}
+.forsrch
+{
+	width:1024px; height:20px; margin:auto;  background-color:#454545;
+}
+.midcont
+{
+	width:1024px; height:170px;
+}
+.mid2
+{
+	width:1024px; height:700px; 
+}
+.midcustomer
+{
+	width:724px; height:900px; background-color:#e8e8e8;
+}
+.nesmid1
+{
+	color:#960002; text-align:center; font-size:50px; font-family:myfontbody;
+}
+.foot
+{
+	width:1024px; height:180px; background-color:#780002; margin:auto;
+}
+.foot1
+{
+	width:200px; height:180px;  float:left; background-color:#454545;
+}
+.foot2
+{
+	width:450px; height:180px;  float:right; background-color:#454545;
+}
+.foot3
+{
+	width:373px; height:180px;  float:left; background-color:#454545;
+}
+.foot1 img
+{
+	height:35px; width:45px; margin-left:10px;
+}
+.foot1 h1
+{
+	margin-left:20px; font-family:myfontbody;
+}
+.foot2 h1
+{
+	font-family:myfontbody; margin-left:20px
+}
+.footerdiv
+{
+	width:100%; height:180px; background-image:url(img/maroon-wallpapers.jpg);
+}
+.fbform
+{
+margin-top:25px; margin-left:30px; border-right:2px solid #373737; width:480px; height:500px;
+}
+.fbform label
+{
+	font-family:myfontbody; font-size:20px;
+}
+.sub
+{
+	width:150px; height:30px; font-family:myfontbody; font-size:18px; border-radius:10px;
+}
+.sub:hover
+{
+	background-color:#1200FF;
+}
+.inputfrm
+{
+	width:300px; height:25px; border-radius:10px;
+}
+.inputfb
+{
+	border-radius:10px;
+}
+.abttext
+{
+	font-size:24px; padding:10px 10px;
+}
+.middledivpage
+{
+	width:1024px; margin:auto; height:600px; background-color:#e8e8e8;
+}
+.titleforpage
+{
+	width:1024px; height:150px; background-color:#A8A6A7; margin:auto;
+}
+.box
+{
+	width:333px; height:290px; float:left; margin-left:5px;
+	margin-top:5px; background-color:#e8e8e8;
+}
+.viewbtn
+{
+	width:150px; height:30px; border-radius:10px; font-family:myfontbody; font-size:16px;
+	margin-top:5px;
+}
+.addtocartbtn
+{
+	width:150px; height:30px; border-radius:10px; margin-left:4px; font-family:myfontbody; font-size:16px;
+}
+.forprice
+{
+	font-size:16px; font-family:myfontbody; text-align:center;
+}
+.forname
+{
+	font-size:18px; font-family:myfontbody; text-align:center;
+}
+.pagerbelow
+{
+ background-color:transparent; font-size:20px; color:#676767; 
+}
+.pagerdiv
+{
+width:1024px; margin:auto; height:30px; background-color:#e8e8e8;
+}
+.eleintro
+{
+	font-size:30px; font-family:myfontbody; text-align:center;
+}
+.newitem
+{
+	width:1024px; height:205px; background-color:#FFADAE; border:solid 1px;
+}
+.showrecent
+{
+	width:233px; height:205px; background-color:#e8e8e8; float:left; margin-left:2px; border:solid 1px;
+}
+.middledivforelect
+{
+	width:1024px; margin:auto; height:700px; background-color:#e8e8e8;
+}
+.leftdes
+{
+	width:500px; height:300px; background-color:#e8e8e8; float:left;
+}
+.rightdes
+{
+	width:524px; height:300px; background-color:#e8e8e8; float:right;
+}
+.bottomdes
+{
+	width:1024px; height:400px; background-color:#e8e8e8; float:left;
+}
+.tab
+{
+	width:1024px; height:300px; font-family:myfontbody;
+} 
+.tab td
+{
+	text-align:center;
+}
+.buynow
+{
+	width:200px; height:30px; border-radius:10px; font-size:18px; font-family:myfontbody;
+}
+.buynow:hover
+{
+	  background-color:#84FF9A;
+}
+.dtlleft
+{
+	width:512px; height:700px; background-color:#e8e8e8; float:left;
+} 
+.dtlright
+{
+	width:512px; height:700px; background-color:#e8e8e8; float:right;
+}
+
+.lblfordtl
+{
+	font-family:myfontbody; font-size:18px;
+}
+.f
+{
+	margin-left:20px;
+}
+.showing
+{
+	font-size:16px; font-family:myfontbody; text-align:center;
+}
+.receipt
+{
+	width:400px; height:500px; background-color:#E0E0E0; margin:auto;
+}
+.tablereceipt
+{
+	width:400px; height:500px; font-family:myfontbody; border:1px solid;
+}
+.tablereceipt tr td
+{
+ text-align:center; font-size:24px;	
+}
+.bottomfirst
+{
+	width:1024px; height:170px; margin:auto;
+}
+.name
+{
+	width:1024px; height:20px; margin:auto; background-color:#454545;
+}
